@@ -38,6 +38,7 @@ fun sayParameterDefault(firstName: String, lastName: String? = null, age: Int = 
     }
 }
 
-fun sayHello(){
+// hak akses private
+private fun sayHello(){
     println("Hai World");
 }
